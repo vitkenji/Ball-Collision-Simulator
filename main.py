@@ -11,9 +11,9 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 running = True
 dt = 0.016
-COOLDOWN = 0.01
+COOLDOWN = 0.02
 
-number_balls = random.randint(5, 14)
+number_balls = random.randint(3, 10)
 circles = []
 
 def calculateNewVelocity(mass1, mass2, velocity1, velocity2):
